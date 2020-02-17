@@ -20,10 +20,13 @@ And the 3 adjunct folders are:  </p>
 - BCT: Brain Connectivity Toolbox [Rubinov2010] <a href="url"> https://sites.google.com/site/bctnet/</a>  
 - PlotKit: set of codes for brain plotting and results visualization </p>
 
-Copyright (c) 2019 Lausanne University Hospital (UNIL-CHUV)
+
 
 #### References
 <font size="1"> [Griffa2015] 'Transient networks of spatio-temporal connectivity map communication pathways in brain functional systems' - Alessandra Griffa, Benjamin Ricaud, Kirell Benzi, Xavier Bresson, Alessandro Daducci Pierre Vandergheynst, Jean-Philippe Thiran, Patric Hagmann - NeuroImage. Volume 155, 15 July 2017, Pages 490-502 </font>
 
 
 <font size="1"> [Rubinov2010] 'Complex network measures of brain connectivity: Uses and interpretations.' - Mikail Rubinov, Olaf Sporns - NeuroImage 52:1059-69 </font>
+
+
+Copyright (c) 2019 Lausanne University Hospital (UNIL-CHUV)
