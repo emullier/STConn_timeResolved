@@ -13,14 +13,13 @@
 %%% Connectomics Lab, Department of Radiology, Lausanne University Hospital
 %%%
 %%% Manuscript
-%%% 'The role of structural connectivity in functional brain dynamics' 
+%%% 'Functional brain dynamic are shaped by connectome n-simplicial organization'
 %%% Emeline Mullier, Jakub Vohryzek, Alessandra Griffa, Yasser Alemàn-Gómez, Celia Hacker, Kathryn Hess, Patric Hagmann
 %%%
 %%% ==========================================================================================================================
 
 
 %addpath(genpath('/home/localadmin/Documents/STConn_Analyses/Plot_Brains_Kit'));
-
 
 %% Set paths and paramaters
 addpath(genpath('BCT')); %%% add path to the brain connectivity toolbox [Rubinov2010]
@@ -37,7 +36,6 @@ gamma = 1;                         % resolution of the Louvain community detecti
 CCsprep = 1;                       % boolean, to concatenate and scrub the CCs (according to fMRI motion parameters, FD and DVARS) and generate the matrix of structurally constrained time-resolved brain maps
 Louvain = 1;                       % boolean, run the Louvain community detection
 PlotStates = 1;                    % boolean, plot the average brain maps (=states)
-
 
 
 %% ========== CCs PREPARATION ========== %%
@@ -72,6 +70,7 @@ if PlotStates
     Noise = accumarray(CIU, ones(size(CIU)));
     mat_clusters = mat_clusters(ixc{scale},find(Noise>50));
     Plot_Brains_1view(Surf_rh, Surf_lh, annotr, annotl, mat_clusters','colMap','jet');
+    close;
 end
 
 
