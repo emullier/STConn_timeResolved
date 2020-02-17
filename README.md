@@ -28,5 +28,5 @@ And the 3 adjunct folders are:  </p>
 
 <font size="1"> [Rubinov2010] 'Complex network measures of brain connectivity: Uses and interpretations.' - Mikail Rubinov, Olaf Sporns - NeuroImage 52:1059-69 </font>
 
-
+===============================================================
 Copyright (c) 2019 Lausanne University Hospital (UNIL-CHUV)
