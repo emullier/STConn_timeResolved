@@ -1,7 +1,7 @@
 # STConn_timeResolved
 
 
-This repository gathers the codes related to the manuscript:  
+This repository gathers the codes related to the manuscript: </p>
 <b> 'Functional brain dynamics are shaped by connectome n-simplicial organization' </b>  
 <i> Emeline Mullier, Jakub Vohryzek, Alessandra Griffa, Yasser Alemàn-Gómez, Celia Hacker, Kathryn Hess, Patric Hagmann <i>  
 
